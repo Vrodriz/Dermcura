@@ -1,0 +1,154 @@
+/*ESTILO GERAL */
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{   
+    background-color: #ffff ;
+    height: 100vh;
+}
+
+.interface{ 
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.logo-image{    
+    max-width: 300px;
+}
+
+.flex{  
+    display: flex;
+}
+
+.btn-contato button{   
+    padding: 10px 40px; 
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #0a84f6;
+    border: 0;  
+    cursor: pointer;
+    font-family: inherit;
+    color: #ffff;
+    transition: .2s;
+}
+
+h2.titulo{  
+    color: #ca3946;
+    font-size: 38px;
+    text-align: center;
+
+}
+
+h2.titulo span{ 
+    color: #0a84f6;
+}
+
+/* estilo do cabeçalho */
+header{ 
+    padding: 40px 4%;
+
+}
+
+header > .interface {   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header a{   
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    
+}
+
+header a:hover{ 
+    color: #ca3946 ;
+    transform: scale(1.10);
+}
+
+header nav ul{  
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{ 
+    display: inline-block; 
+    padding: 0 55px; 
+    
+}
+
+.btn-contato button:hover{   
+    box-shadow: 0px 0px 8px #0a84f6 ;
+    transform: scale(1.05);
+}
+
+.png-enfermeira{   
+    width: 560px;
+    height: 480px;
+}
+
+/* Estilo do topo do site*/
+section.topo-do-site{  
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{ 
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site  h1{   
+    color: #ca3946;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{  
+    color: #0a84f6;
+}
+
+.topo-do-site .txt-topo-site p{ 
+    color: #0a84f6;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{   
+    position: relative;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
+
+}
+
+@keyframes flutuar{ 
+    0% {    
+        top: 0;
+    }
+    100%{   
+        top: 30px        
+    }
+}
+
+/* Estilo das Especialidades */
+
+section.especialidades{ 
+    padding: 40px 4%;
+}
+
+
+
+
+
+
+
+
+
